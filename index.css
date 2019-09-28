@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*-------------------------------------------------*/
+#dtContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+div#dt-filter-bar > * {
+  display: inline-block;
+}
+
+table-filter {
+  float: right;
+}
+
+#dtheader,
+#dtbody,
+#paginator {
+  width: 100%;
+  overflow-y: auto;
+}
+#dtbody {
+  border-bottom: 1px solid black;
+}
+
+.table-header-titles,
+.table-header-filter,
+.table-body-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+}
+
+.table-body-row {
+  border-bottom: 1px solid lightgray;
+}
+
+.table-body-row > div {
+  text-align: center;
+}
+
+.table-header-titles > div,
+.table-header-filter > input,
+.table-body-row > div {
+  display: inline-block;
+}
+#paginator {
+  margin-top: 20px;
+}
+#paginator > page-num {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid grey;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*-------------------------------------------------*/
+.select-entries {
+  left: 15%;
+  position: fixed;
+  top: 0;
+}
+#dt-filter-bar {
+  height: 19px;
+}
+
+.table-filter {
+  right: 15%;
+  top: 0;
+  position: fixed;
+}
+
+#dtheader {
+  position: fixed;
+  width: 70%;
+  background: white;
+}
+#dtbody {
+  margin-top: 78px;
+}
+.select-entries {
+  height: 19px;
+}
